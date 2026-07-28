@@ -1,0 +1,31 @@
+{
+    "name":"Absensi Guru MI Ma'arif 2 Kentengsari",
+
+    "short_name":"Absensi Guru",
+
+    "start_url":"index.html",
+
+    "display":"standalone",
+
+    "background_color":"#ffffff",
+
+    "theme_color":"#0b8f43",
+
+    "orientation":"portrait",
+
+    "icons":[
+
+        {
+            "src":"images/icon-192.png",
+            "sizes":"192x192",
+            "type":"image/png"
+        },
+
+        {
+            "src":"images/icon-512.png",
+            "sizes":"512x512",
+            "type":"image/png"
+        }
+
+    ]
+}

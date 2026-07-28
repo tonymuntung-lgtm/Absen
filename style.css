@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+    background:linear-gradient(135deg,#0d8f55,#3cb371);
+}
+
+.container{
+    width:90%;
+    max-width:420px;
+    margin:30px auto;
+    background:#fff;
+    border-radius:25px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 10px 35px rgba(0,0,0,.25);
+}
+
+.logo{
+    width:90px;
+    margin-bottom:10px;
+}
+
+h1{
+    color:#0a7a42;
+    margin:5px;
+    font-size:36px;
+}
+
+h2{
+    color:#17864d;
+    margin:5px;
+}
+
+p{
+    color:#666;
+}
+
+input{
+    width:90%;
+    padding:14px;
+    border-radius:12px;
+    border:1px solid #ddd;
+    margin-top:8px;
+    margin-bottom:15px;
+    font-size:16px;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    margin:8px 0;
+    border:none;
+    border-radius:14px;
+    color:#fff;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-3px);
+}
+
+button:nth-of-type(1){background:#0b9444;}
+button:nth-of-type(2){background:#1e88e5;}
+button:nth-of-type(3){background:#ff9800;}
+button:nth-of-type(4){background:#e53935;}
+button:nth-of-type(5){background:#00897b;}
+button:nth-of-type(6){background:#5e35b1;}
+button:nth-of-type(7){background:#424242;}
+
+#namaGuru{
+    color:#0a7a42;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.status{
+    background:#e8f5e9;
+    color:#0a7a42;
+    padding:12px;
+    border-radius:12px;
+    margin:15px 0;
+    font-weight:bold;
+}
+
+.jam{
+    font-size:18px;
+    color:#444;
+    margin-bottom:20px;
+}

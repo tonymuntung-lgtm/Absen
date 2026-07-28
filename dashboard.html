@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Guru</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <img src="logo.png" class="logo">
+
+    <h1>ABSENSI GURU</h1>
+    <h2>MI MA'ARIF MUNTUNG</h2>
+
+    <p>Selamat Datang</p>
+    <h2><span id="namaGuru">Guru</span></h2>
+
+<div class="status">
+🟢 Sistem Absensi Online
+</div>
+
+<div class="jam" id="jam"></div>
+
+    <button onclick="absenMasuk()">ABSEN MASUK</button>
+
+    <button onclick="absenPulang()">ABSEN PULANG</button>
+
+    <button onclick="izin()">IZIN</button>
+
+    <button onclick="sakit()">SAKIT</button>
+
+    <button onclick="exportExcel()">EXPORT EXCEL</button>
+
+    <button onclick="exportPDF()">EXPORT PDF</button>
+
+    <button onclick="logout()">LOGOUT</button>
+
+</div>
+
+<script src="script.js"></script>
+
+<script>
+let nama = localStorage.getItem("namaGuru");
+
+if (nama) {
+    document.getElementById("namaGuru").innerHTML = nama;
+}
+</script>
+
+<script>
+
+function tampilJam(){
+
+let sekarang = new Date();
+
+document.getElementById("jam").innerHTML =
+sekarang.toLocaleDateString("id-ID") +
+"<br>" +
+sekarang.toLocaleTimeString("id-ID");
+
+}
+
+setInterval(tampilJam,1000);
+
+tampilJam();
+
+</script>
+
+
+</body>
+</html>
