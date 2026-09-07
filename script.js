@@ -2,7 +2,7 @@
 // URL GOOGLE APPS SCRIPT
 //=================================================
 
-const URL_WEB_APP = "https://script.google.com/macros/s/AKfycbzKaTn6xIs-7z5hUHRhhKWER9tgmZgoLmFAQnYwXpEeri6kxM7H-jNALpN3kbTC_LQj/exec";
+const URL_WEB_APP = "https://script.google.com/macros/s/AKfycbxp6r96qH9hlK2pLOwIeQ6PkfRx68CGQqCa230eYkcWQuO7YLm5RMgjvMwKt43QKmbKsw/exec";
 
 
 //=================================================
@@ -11,19 +11,15 @@ const URL_WEB_APP = "https://script.google.com/macros/s/AKfycbzKaTn6xIs-7z5hUHRh
 
 const guru = [
 
-{username:"jamal",password:"12345",nama:"Jamaluddin Ma'ruf"},
-{username:"siti",password:"12345",nama:"Siti Anifah"},
-{username:"farida",password:"12345",nama:"Faridah"},
-{username:"arif",password:"12345",nama:"Arif Faizun"},
-{username:"tri",password:"12345",nama:"Tri Puji Utami"},
-{username:"monic",password:"12345",nama:"Monica Farhana"},
-{username:"yuni",password:"12345",nama:"Yuni Irmawati"},
-{username:"anggi",password:"12345",nama:"Wahyu Anggi Lestari"},
-{username:"alga",password:"12345",nama:"Alga Nur Witrani"},
-{username:"rini",password:"12345",nama:"Rini Sriyati"},
-{username:"priha",password:"12345",nama:"Prihatiyani"}
-
+{username:"tony",password:"mimuntung",nama:"Muhamad Fathony"},
+{username:"bucarik",password:"mimuntung",nama:"Eva Dian Sofiyanti"},
+{username:"jwt",password:"mimuntung",nama:"Jarwati"},
+{username:"ati",password:"mimuntung",nama:"Rumar 'Ati"},
+{username:"iffa",password:"mimuntung",nama:"Rachma Nur Hanifa"},
+{username:"dewi",password:"mimuntung",nama:"Dewi Nurhayati"},
+{username:"min",password:"mimuntung",nama:"Amin Solechatun"},
 ];
+
 
 
 //=================================================
